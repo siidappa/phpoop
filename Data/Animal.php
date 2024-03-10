@@ -3,7 +3,7 @@
 namespace Data;
 abstract class Animal {
     public  string $name;
-    public  abstract function  run(): void;
+    public  abstract function  run(): void; //Abstract function
 }
 
 class Cat extends Animal {
@@ -13,4 +13,9 @@ class Cat extends Animal {
     }
 }
 
-$cat = new Cat("Dappa");
+class Bird extends Animal{
+    public function run(): void
+    {
+        echo "This Bird {$this->name} is Flying" . PHP_EOL;
+    }
+}
