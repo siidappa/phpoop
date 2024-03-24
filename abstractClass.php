@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/Location.php";
+require_once "Data/Location.php";
 
 use Data\{Location, City, Country};
 // $location = new Location(); ERROR

@@ -1,5 +1,5 @@
 <?php 
-require_once "data/Person.php";
+require_once "Data/Person.php";
 
 const APP_VERSION = "1.0.0";
 echo APP_VERSION . PHP_EOL;

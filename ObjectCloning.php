@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/Student.php";
+require_once "Data/Student.php";
 
 $student = new Student();
 $student->id = "1";

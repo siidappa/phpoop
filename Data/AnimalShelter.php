@@ -1,7 +1,7 @@
 <?php 
 
 namespace Data;
-require_once "data/Animal.php";
+require_once "Data/Animal.php";
 
 interface AnimalShelter {
     function adopt(string $name): Animal;

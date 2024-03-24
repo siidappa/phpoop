@@ -20,7 +20,7 @@ class Person {
 
     function sayHello(?string $name){
         if (is_null($name)) {           //mengakses object saat ini menggunakan keyword $this
-            echo "Hello, Selamat datang {$this->name}" . PHP_EOL;
+            echo "Hello, Selamat Datang {$this->name}" . PHP_EOL;
         } else {
             echo "Hai $name, My name is {$this->name}" . PHP_EOL;
         }

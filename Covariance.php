@@ -4,8 +4,8 @@ use Data\CatShelter;
 use Data\Food\AnimalFood;
 use Data\Food\Food;
 
-require_once "data/Animal.php";
-require_once "data/AnimalShelter.php";
+require_once "Data/Animal.php";
+require_once "Data/AnimalShelter.php";
 
 $catShelter = new CatShelter();
 $cat = $catShelter->adopt("Clara");

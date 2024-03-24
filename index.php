@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/Person.php"; // include file
+require_once "Data/Person.php"; // include file
 
 $person = new Person(); // Instansiasi
 $person->name = "Dappa";

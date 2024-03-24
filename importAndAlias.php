@@ -1,7 +1,7 @@
 <?php 
 
-require_once "data/ConflictTestNamespace.php";
-require_once "data/Helper.php";
+require_once "Data/ConflictTestNamespace.php";
+require_once "Data/Helper.php";
 
 // import menggunakan metode use
 use Data\One\Conflict as Conflict1;

@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/SayGoodBye.php";
+require_once "Data/SayGoodBye.php";
 
 use Data\Trait\{Person, HasName, CanRun, SayGoodBye, SayHello};
 $person = new Person();

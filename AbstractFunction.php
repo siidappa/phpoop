@@ -1,6 +1,6 @@
 <?php
 
-require_once "data/Animal.php";
+require_once "Data/Animal.php";
 use Data\{Animal, Cat, Bird};
 
 $cat = new Cat();

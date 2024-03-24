@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/Robot.php";
+require_once "Data/Robot.php";
 
 $robot = new Robot();
 $robot->greet();

@@ -1,6 +1,6 @@
 <?php
 
-require_once "data/CarInterface.php";
+require_once "Data/CarInterface.php";
 use Data\Avanza;
 
 $car = new Avanza();

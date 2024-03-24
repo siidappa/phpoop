@@ -29,7 +29,7 @@ class Data implements IteratorAggregate {
     }
 }
 
-$data = new Data();
-foreach($data as $key => $value) {
+$Data = new Data();
+foreach($Data as $key => $value) {
     echo "$key : $value" . PHP_EOL;
 }

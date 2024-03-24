@@ -1,6 +1,6 @@
 <?php 
 
-require_once "data/Programmer.php";
+require_once "Data/Programmer.php";
 
 $company = new Startup();
 $company->programmer = new Programmer("Dappa");
